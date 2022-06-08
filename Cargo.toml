@@ -1,0 +1,19 @@
+[package]
+name = "atb"
+version = "0.1.0"
+edition = "2021"
+description = "Simple lock-free triple buffer"
+license = "MIT"
+documentation = "https://docs.rs/atb"
+homepage = "https://github.com/jf2048/atb"
+repository = "https://github.com/jf2048/atb.git"
+
+[lib]
+path = "lib.rs"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+bitfield = "0.13.2"
